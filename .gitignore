@@ -1,0 +1,5 @@
+# Images are GitHub Release assets, never committed.
+*.bin
+*.hex
+*.zip
+__pycache__/
