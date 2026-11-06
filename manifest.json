@@ -1,9 +1,19 @@
 {
   "schema": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-06",
   "hardware": {
     "3.3": {
       "releases": [
+        {
+          "version": "3.4.2",
+          "url": "https://github.com/frazier-zh/bliss_firmware/releases/download/fw-3.4.2/bliss-hw3.3-fw3.4.2.bin",
+          "sha256": "c350b3daeae4bb95b53733b22995da3e99bd74c76563162b2df9387c5f8a3a51",
+          "size": 254466,
+          "released": "2026-11-06",
+          "min_app": "0.2.10",
+          "min_from": "3.4.0",
+          "notes": "Event-driven loop, no replay after a reboot, nothing lost on a link drop; accelerometer 25 Hz"
+        },
         {
           "version": "3.4.1",
           "url": "https://github.com/frazier-zh/bliss_firmware/releases/download/fw-3.4.1/bliss-hw3.3-fw3.4.1.bin",
@@ -18,6 +28,16 @@
     },
     "3.4": {
       "releases": [
+        {
+          "version": "3.4.2",
+          "url": "https://github.com/frazier-zh/bliss_firmware/releases/download/fw-3.4.2/bliss-hw3.4-fw3.4.2.bin",
+          "sha256": "5ecd2a4868ac6cbfa8013c9802352296d9fd24d46e865e5990c95924a18ec593",
+          "size": 258607,
+          "released": "2026-11-06",
+          "min_app": "0.2.10",
+          "min_from": "3.4.0",
+          "notes": "Event-driven loop, no replay after a reboot, nothing lost on a link drop; accelerometer 25 Hz"
+        },
         {
           "version": "3.4.1",
           "url": "https://github.com/frazier-zh/bliss_firmware/releases/download/fw-3.4.1/bliss-hw3.4-fw3.4.1.bin",
